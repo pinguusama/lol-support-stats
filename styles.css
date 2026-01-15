@@ -62,3 +62,21 @@ tr:nth-child(even) {
   align-items: center;
   gap: 8px;
 }
+select {
+  margin-bottom: 15px;
+  padding: 6px;
+  background: #020617;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.tier {
+  font-weight: bold;
+  text-align: center;
+}
+
+.tier.Splus { color: #facc15; }
+.tier.S { color: #22c55e; }
+.tier.A { color: #60a5fa; }
+.tier.B { color: #f97316; }
+.tier.C { color: #ef4444; }
