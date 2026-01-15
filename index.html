@@ -8,12 +8,24 @@
 <body>
 
 <h1>Support Champions – SoloQ</h1>
+  <label for="elo">ELO:</label>
+<select id="elo">
+  <option value="iron">Iron</option>
+  <option value="bronze">Bronze</option>
+  <option value="silver">Silver</option>
+  <option value="gold" selected>Gold</option>
+  <option value="platinum">Platinum</option>
+  <option value="emerald">Emerald</option>
+  <option value="diamond">Diamond+</option>
+</select>
 
 <table id="champion-table">
   <thead>
     <tr>
+      <th>Tier</th> 
       <th>Campeón</th>
       <th>Winrate</th>
+      <th>Pickrate</th>
       <th>Partidas</th>
       <th>Objeto con más winrate</th>
     </tr>
